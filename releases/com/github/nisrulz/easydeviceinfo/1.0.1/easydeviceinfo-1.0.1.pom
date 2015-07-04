@@ -3,14 +3,20 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.nisrulz</groupId>
-  <artifactId>optimushttp</artifactId>
-  <version>1.0.3</version>
+  <artifactId>easydeviceinfo</artifactId>
+  <version>1.0.1</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>com.android.support</groupId>
       <artifactId>appcompat-v7</artifactId>
-      <version>22.0.0</version>
+      <version>21.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>7.3.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
