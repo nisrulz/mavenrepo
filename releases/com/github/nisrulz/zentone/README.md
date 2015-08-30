@@ -24,6 +24,7 @@ compile 'com.github.nisrulz:zentone:1.0.0'
 ZenTone.getInstance().generate(freq, duration);
 ```
 *where*
+
 |argument|type|value in
 |---|---|---|
 |freq|`int`|Hz
