@@ -1,7 +1,7 @@
 #Easy DeviceInfo
 
 Enabling device information to be at android developers hand like a piece of cake!
-
+Checkout the app using the same in [Playstore](https://play.google.com/store/apps/details?id=in.excogitation.deviceinfo)
 #Integration
 - Include the below into your app's ***build.gradle*** right at the very bottom.
 ```gradle
