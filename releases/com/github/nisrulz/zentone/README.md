@@ -8,7 +8,7 @@ ZenTone does all the heavy lifting for you.
 
 Checkout the app using the same in [Playstore](https://play.google.com/store/apps/details?id=in.excogitation.library_zentone)
 
-Checkout the code for the app on [Github](https://github.com/nisrulz/zentone).
+and the code on [Github](https://github.com/nisrulz/zentone).
 
 #Integration
 - Include the below into your app's ***build.gradle*** right at the very bottom.
