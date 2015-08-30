@@ -11,7 +11,7 @@ repositories {
     }
 }
 ```
-- Next add the corresponding dependency
+- Next add the dependency
 ```gradle
 compile 'com.github.nisrulz:easydeviceinfo:1.1.2'
 ```
