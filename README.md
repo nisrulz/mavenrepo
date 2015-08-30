@@ -13,7 +13,7 @@ repositories {
     }
 }
 ```
-- Next add the corresponding dependency 
+- Next add the corresponding dependency
 ```gradle
 compile 'com.github.nisrulz:easydeviceinfo:1.1.2'
 ```
@@ -22,6 +22,7 @@ compile 'com.github.nisrulz:easydeviceinfo:1.1.2'
 |EasyDeviceInfo|`com.github.nisrulz:easydeviceinfo:1.1.2`|
 |EvTrack|`com.github.nisrulz:evtrack:1.0.0`|
 |OptimusHTTP|`com.github.nisrulz:easydeviceinfo:1.0.3`|
+|ZenTone|`com.github.nisrulz:zentone:1.0.0`|
 
 
 # License
