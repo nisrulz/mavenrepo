@@ -1,3 +1,6 @@
+
+![enter image description here](https://github.com/nisrulz/zentone/raw/master/app/src/main/res/mipmap-xhdpi/ic_launcher.png)
+
 #ZenTone
 
 Generating pure tone of an specific frequency was never that easy.
