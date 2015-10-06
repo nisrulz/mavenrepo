@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Maven Repository by nisrulz</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Maven Repository</h1>
+        <p>Github-Maven Repository</p>
+        <p class="view"><a href="https://github.com/nisrulz/mavenrepo">View the Project on GitHub <small>nisrulz/mavenrepo</small></a></p>
+        <ul>
+          <li><a href="https://github.com/nisrulz/mavenrepo/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/nisrulz/mavenrepo/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/nisrulz/mavenrepo">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="github-based-maven-repository" class="anchor" href="#github-based-maven-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>Github-Based Maven Repository</h1>
+
+<p>This is a maven repository hosted on github, where all my open source android libraries would be hosted.</p>
+
+<p>You can use this to pull these android libraries as a dependency via <a href="https://gradle.org/">gradle</a> build system.</p>
+
+<h2>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h2>
+
+<ul>
+<li>Include the below into your app's <strong><em>build.gradle</em></strong> right at the very bottom.</li>
+</ul>
+
+<div class="highlight highlight-source-groovy-gradle"><pre><span class="pl-en">repositories</span> {
+    maven{
+        url <span class="pl-s"><span class="pl-pds">'</span>https://github.com/nisrulz/mavenrepo/raw/master/releases<span class="pl-pds">'</span></span>
+    }
+}</pre></div>
+
+<ul>
+<li>Next add the corresponding dependency</li>
+</ul>
+
+<div class="highlight highlight-source-groovy-gradle"><pre>compile <span class="pl-s"><span class="pl-pds">'</span>com.github.nisrulz:easydeviceinfo:1.1.2<span class="pl-pds">'</span></span></pre></div>
+
+<table>
+<thead>
+<tr>
+<th>Name of Dependency</th>
+<th>gradle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EasyDeviceInfo</td>
+<td><code>com.github.nisrulz:easydeviceinfo:1.1.2</code></td>
+</tr>
+<tr>
+<td>EvTrack</td>
+<td><code>com.github.nisrulz:evtrack:1.0.0</code></td>
+</tr>
+<tr>
+<td>OptimusHTTP</td>
+<td><code>com.github.nisrulz:easydeviceinfo:1.0.3</code></td>
+</tr>
+<tr>
+<td>ZenTone</td>
+<td><code>com.github.nisrulz:zentone:1.0.0</code></td>
+</tr>
+<tr>
+<td>Sensey</td>
+<td><code>com.github.nisrulz:sensey:1.0.0</code></td>
+</tr>
+</tbody>
+</table>
+
+<h1>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h1>
+
+<p><a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License 2.0</a></p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/nisrulz">nisrulz</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-53824796-4");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
