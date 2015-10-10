@@ -1,8 +1,7 @@
-#Github-Based Maven Repository
-
 This is a maven repository hosted on github, where all my open source android libraries would be hosted.
 
-You can use this to pull these android libraries as a dependency via [gradle](https://gradle.org/) build system.
+Use [gradle](https://gradle.org/) to pull them as a dependency into your android project.
+
 How to use
 ----------
 - Include the below into your app's ***build.gradle*** right at the very bottom.
@@ -19,11 +18,11 @@ compile 'com.github.nisrulz:easydeviceinfo:1.1.2'
 ```
 |Name of Dependency|gradle|
 |---|---|
-|EasyDeviceInfo|`com.github.nisrulz:easydeviceinfo:1.1.2`|
-|EvTrack|`com.github.nisrulz:evtrack:1.0.0`|
-|OptimusHTTP|`com.github.nisrulz:easydeviceinfo:1.0.3`|
-|ZenTone|`com.github.nisrulz:zentone:1.0.0`|
-|Sensey|`com.github.nisrulz:sensey:1.0.0`|
+|[EasyDeviceInfo](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/easydeviceinfo)|`com.github.nisrulz:easydeviceinfo:1.1.2`|
+|[EvTrack](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/evtrack)|`com.github.nisrulz:evtrack:1.0.0`|
+|[OptimusHTTP](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/optimushttp)|`com.github.nisrulz:easydeviceinfo:1.0.3`|
+|[ZenTone](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/zentone)|`com.github.nisrulz:zentone:1.0.0`|
+|[Sensey](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/sensey)|`com.github.nisrulz:sensey:1.0.0`|
 
 
 # License
