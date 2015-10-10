@@ -1,4 +1,6 @@
-This is a maven repository hosted on github, where all my open source android libraries would be hosted.
+#Github-Based Maven Repository
+
+Maven repository hosted on github to facilitate hosting open source android libraries.
 
 Use [gradle](https://gradle.org/) to pull them as a dependency into your android project.
 
