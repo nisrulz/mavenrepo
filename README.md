@@ -16,13 +16,16 @@ repositories {
 ```
 - Next add the corresponding dependency
 ```gradle
-compile 'com.github.nisrulz:easydeviceinfo:1.1.2'
+compile 'gradle-reference-id'
 ```
-|Name of Dependency|gradle|
+
+where ```gradle-reference-id``` is 
+
+|Name of Dependency|gradle-reference-id|
 |---|---|
 |[EasyDeviceInfo](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/easydeviceinfo)|`com.github.nisrulz:easydeviceinfo:1.1.2`|
 |[EvTrack](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/evtrack)|`com.github.nisrulz:evtrack:1.0.0`|
-|[OptimusHTTP](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/optimushttp)|`com.github.nisrulz:easydeviceinfo:1.0.3`|
+|[OptimusHTTP](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/optimushttp)|`com.github.nisrulz:optimushttp:1.0.3`|
 |[ZenTone](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/zentone)|`com.github.nisrulz:zentone:1.0.0`|
 |[Sensey](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/sensey)|`com.github.nisrulz:sensey:1.0.0`|
 
