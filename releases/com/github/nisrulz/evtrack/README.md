@@ -8,7 +8,7 @@ Based of [EasyDeviceInfo](https://github.com/nisrulz/mavenrepo/tree/master/relea
 ```gradle
 repositories {
     maven{
-        url 'https://github.com/nisrulz/mavenrepo/raw/master/releases'
+        url 'http://maven.excogitation.in/'
     }
 }
 ```
