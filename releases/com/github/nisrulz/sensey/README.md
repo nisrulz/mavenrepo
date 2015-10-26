@@ -7,7 +7,7 @@ Simplified sensor based gesture detection android library.
 ```gradle
 repositories {
     maven{
-        url 'https://github.com/nisrulz/mavenrepo/raw/master/releases'
+        url 'http://maven.excogitation.in/'
     }
 }
 ```
