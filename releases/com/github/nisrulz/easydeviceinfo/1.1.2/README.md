@@ -13,7 +13,7 @@ repositories {
 ```
 - Next add the dependency
 ```gradle
-compile 'com.github.nisrulz:easydeviceinfo:1.1.4'
+compile 'com.github.nisrulz:easydeviceinfo:1.1.2'
 ```
 
 #Usage
@@ -61,17 +61,6 @@ String value=easyDeviceInfo.functionName();
 |Installer Store|`getStore(context)`|String
 |Is internet available|`isNetworkAvailable()`|boolean
 |Is running on emulator|`isRunningOnEmulator()`|boolean
-|Build Brand|`getBuildBrand()`|String
-|Build Host|`getBuildHost()`|String
-|Build Tags|`getBuildTags()`|String
-|Build Time|`getBuildTime()`|long
-|Build User|`getBuildUser()`|String
-|Build Version Release|`getBuildVersionRelease()`|String
-|Screen Display ID|`getScreenDisplayID()`|String
-|Build Version Codename|`getBuildVersionCodename()`|String
-|Build Version Incremental|`getBuildVersionIncremental()`|String
-|Build Version SDK|`getBuildVersionSDK()`|int
-|Build ID|`getBuildID()`|String
 
 
 ---
@@ -94,37 +83,6 @@ StringBuilder emailIDs = new StringBuilder();
 
 String emailId=emailIDs.toString();
 ```
-
-+ To get Supported ABIS
-```java
-StringBuilder supportABI = new StringBuilder();
-   for (String abis : easyDeviceInfo.getSupportedABIS()) {
-       supportABI.append(abis).append("\n");
-   }
-
-String supportedABI=supportABI.toString();
-```
-
-+ To get Supported 32 Bit ABIS
-```java
-StringBuilder support32ABI = new StringBuilder();
-   for (String abis : easyDeviceInfo.getSupported32bitABIS()) {
-       support32ABI.append(abis).append("\n");
-   }
-
-String supported32ABI=support32ABI.toString();
-```
-
-+ To get Supported 64 Bit ABIS
-```java
-StringBuilder support64ABI = new StringBuilder();
-   for (String abis : easyDeviceInfo.getSupported64bitABIS()) {
-       support64ABI.append(abis).append("\n");
-   }
-
-String supported64ABI=support64ABI.toString();
-```
-
 
 + To get Advertiser's ID
 ```java
