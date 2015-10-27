@@ -1,6 +1,6 @@
 #EvTrack
 
-Event & Exception tracking simplified.
+Event & Exception tracking made easy.
 Based of [EasyDeviceInfo](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/easydeviceinfo) lib and [okhttp](https://github.com/square/okhttp).
 
 #Integration
@@ -14,13 +14,13 @@ repositories {
 ```
 - Next add the dependency
 ```gradle
-compile 'com.github.nisrulz:evtrack:1.0.0'
+compile 'com.github.nisrulz:evtrack:1.0.1'
 ```
 
 #Usage
 + Create an instance of the ***EvTrack*** class
 ```java
-EvTrack evTrack== new EvTrack();
+EvTrack evTrack = new EvTrack();
 ```
 
 + Next if in debug stage, enable logs
@@ -35,7 +35,7 @@ event_params.put("key1", "value1");
 event_params.put("key2", "value2");
 ..
 event_params.put("key7", "value7");
-evTrack.recordEvent(context, event_params, SERVER_URL);
+evTrack.recordEvent(event_params, SERVER, httpCallback);
 ```
 
 + To record an exception, pass in an ArrayMap to recordException() function
@@ -45,7 +45,21 @@ exp_param.put("key1", "value1");
 exp_param.put("key2", "value2");
 ..
 exp_param.put("key7", "value7");
-evTrack.recordException(context, exp_param, SERVER_URL);
+evTrack.recordException(e, exp_param, SERVER , httpCallback);
+```
++ Implement the Callback
+```java
+private final Callback httpCallback = new Callback() {
+       @Override
+       public void onFailure(Request request, IOException e) {
+           Log.e(LOGTAG, "Req Failed : " + e.getLocalizedMessage());
+       }
+
+       @Override
+       public void onResponse(Response response) throws IOException {
+           Log.i(LOGTAG, "Req Successful : " + String.valueOf(response.code()));
+       }
+   };
 ```
 
 # License
