@@ -27,7 +27,7 @@ where ```gradle-reference-id``` is
 |[EvTrack](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/evtrack)|`com.github.nisrulz:evtrack:1.0.0`|
 |[OptimusHTTP](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/optimushttp)|`com.github.nisrulz:optimushttp:1.0.3`|
 |[ZenTone](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/zentone)|`com.github.nisrulz:zentone:1.0.0`|
-|[Sensey](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/sensey)|`com.github.nisrulz:sensey:1.0.0`|
+|[Sensey](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/sensey)|`com.github.nisrulz:sensey:1.0.1`|
 
 
 # License
