@@ -5,7 +5,7 @@
 
 Making gesture detection a breeze.
 
-Checkout the code on [here](https://github.com/nisrulz/zentone).
+Checkout the code on [here](https://github.com/nisrulz/Sensey).
 
 #Integration
 - Include the below into your app's ***build.gradle*** right at the very bottom.
