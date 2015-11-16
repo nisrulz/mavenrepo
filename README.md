@@ -19,15 +19,11 @@ repositories {
 compile 'gradle-reference-id'
 ```
 
-where ```gradle-reference-id``` is 
+where ```gradle-reference-id``` is
 
 |Name of Dependency|gradle-reference-id|
 |---|---|
 |[EasyDeviceInfo](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/easydeviceinfo)|`com.github.nisrulz:easydeviceinfo:1.1.4`|
-|[EvTrack](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/evtrack)|`com.github.nisrulz:evtrack:1.0.1`|
-|[OptimusHTTP](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/optimushttp)|`com.github.nisrulz:optimushttp:1.0.3`|
-|[ZenTone](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/zentone)|`com.github.nisrulz:zentone:1.0.1`|
-|[Sensey](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/sensey)|`com.github.nisrulz:sensey:1.0.1`|
 
 
 # License
