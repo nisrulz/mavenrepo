@@ -53,13 +53,13 @@ String value=easyDeviceInfo.functionName();
 |Board|`getBoard()`|String
 |Hardware|`getHardware()`|String
 |Bootloader|`getBootloader()`|String
-|IP Address|`getIPAddress()`|String
+|IP Address|`getIPAddress(true)`|String
 |Type of Network|`getNetworkType()`|String
 |User Agent|`getUA()`|String
 |Fingerprint|`getFingerprint()`|String
-|Screen Density|`getDensity(context)`|String
-|Installer Store|`getStore(context)`|String
-|Is internet available|`isNetworkAvailable()`|boolean
+|Screen Density|`getDensity()`|String
+|Installer Store|`getStore()`|String
+|Is Internet available|`isNetworkAvailable()`|boolean
 |Is running on emulator|`isRunningOnEmulator()`|boolean
 |Build Brand|`getBuildBrand()`|String
 |Build Host|`getBuildHost()`|String
@@ -79,7 +79,7 @@ String value=easyDeviceInfo.functionName();
 + To get Latitude-Longitude (Geo)
 ```java
 //Get Lat-Long
-double[] l = easyDeviceInfo.getLatLong(this);
+double[] l = easyDeviceInfo.getLatLong();
 String lat = String.valueOf(l[0]);
 String lon = String.valueOf(l[1]);
 ```
