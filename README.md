@@ -23,7 +23,7 @@ where ```gradle-reference-id``` is
 
 |Name of Dependency|gradle-reference-id|
 |---|---|
-|[EasyDeviceInfo](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/easydeviceinfo)|`com.github.nisrulz:easydeviceinfo:1.1.5`|
+|[EasyDeviceInfo](https://github.com/nisrulz/mavenrepo/tree/master/releases/com/github/nisrulz/easydeviceinfo)|`com.github.nisrulz:easydeviceinfo:1.1.6`|
 
 
 License
